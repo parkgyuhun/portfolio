@@ -305,11 +305,33 @@
     }
 
     .pub_title>h1 {
-        transform: translate(-25px, -15px);
+    position: relative;
+    left: -17%;
+    top: -30%;
     }
 
     .footer a {
         margin: 8rem 40rem;
     }
 
+}
+
+@media screen and (max-width : 320px) {
+    html {
+        font-size: 3px;
+    }
+
+    .poster {
+        gap: 13px;
+    }
+
+    .footer a {
+        margin: 8rem 45rem;
+    }
+
+    .pub_title>h1 {
+    position: relative;
+    left: -26%;
+    top: -10%;
+    }
 }
