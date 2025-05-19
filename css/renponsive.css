@@ -353,4 +353,10 @@
     left: -60%;
     top: -35%;
     }
+
+    @media screen and (max-width : 230px) {
+    .poster {
+        gap: 7px;
+    }
+    }
 }
