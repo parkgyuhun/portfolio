@@ -334,4 +334,23 @@
     left: -26%;
     top: -10%;
     }
+
+    @media screen and (max-width : 267px) {
+    html {
+        font-size: 3px;
+    }
+
+    .poster {
+        gap: 10px;
+    }
+
+    .footer a {
+        margin: 8rem 38rem;
+    }
+
+    .pub_title>h1 {
+    position: relative;
+    left: -60%;
+    top: -35%;
+    }
 }
