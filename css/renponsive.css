@@ -322,7 +322,7 @@
     }
 
     .poster {
-        gap: 13px;
+        gap: 12px;
     }
 
     .footer a {
@@ -334,8 +334,8 @@
     left: -26%;
     top: -10%;
     }
-
-    @media screen and (max-width : 267px) {
+}
+    @media screen and (max-width : 290px) {
     html {
         font-size: 3px;
     }
